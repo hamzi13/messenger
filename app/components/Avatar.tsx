@@ -6,6 +6,7 @@ import useActiveList from "../hooks/useActiveList";
 
 interface AvatarProps {
   user?: User;
+  className?: string;
 }
 
 const Avatar: React.FC<AvatarProps> = ({ user }) => {

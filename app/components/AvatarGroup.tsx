@@ -6,6 +6,7 @@ import React from "react";
 
 interface AvatarGroupProps {
   users?: User[];
+  className?: string; 
 }
 
 const AvatarGroup: React.FC<AvatarGroupProps> = ({ users = [] }) => {
