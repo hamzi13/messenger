@@ -4,7 +4,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GithubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-
 import prisma from "@/app/libs/prismadb";
 
 export const authOptions: AuthOptions = {
@@ -61,4 +60,5 @@ export const authOptions: AuthOptions = {
 
 const handler = NextAuth(authOptions);
 
+// Correct the exports for Next.js app directory:
 export { handler as GET, handler as POST };
