@@ -1,0 +1,3 @@
+react-icons react-hook-form clsx -D prisma react-hot-toast next-auth@latest axios @tailwindcss/forms bcrypt @prisma/client @next-auth/prisma-adapter @types/bcrypt next-superjson-plugin date-fns next-cloudinary @headlessui/react react-select react-spinners pusher pusher-js lodash -D @types/lodash  zustand
+
+npx prisma db push

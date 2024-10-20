@@ -1,0 +1,61 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+
+//       // Disable file watchers for large projects
+//       "files.watcherExclude": {
+//         "**/node_modules/**": true,
+//         "**/dist/**": true,
+//         "**/out/**": true,
+//         "**/.git/objects/**": true,
+//         "**/.git/subtree-cache/**": true
+//       },
+    
+//       // Disable minimap to reduce rendering overhead
+//       "editor.minimap.enabled": false,
+    
+//       // Limit the number of suggestions shown in IntelliSense
+//       "editor.quickSuggestionsDelay": 100,
+//       "editor.suggest.snippetsPreventQuickSuggestions": false,
+    
+//       // Disable error linting as you type
+//       "typescript.validate.enable": false,
+//       "javascript.validate.enable": false,
+    
+//       // Disable automatic format-on-save if performance is affected
+//       "editor.formatOnSave": false,
+    
+//       // Reduce file searching load for large projects
+//       "search.exclude": {
+//         "**/node_modules": true,
+//         "**/bower_components": true,
+//         "**/dist": true
+//       },
+    
+//       // Reduce the number of open editors to avoid memory pressure
+//       "workbench.editor.limit.enabled": true,
+//       "workbench.editor.limit.value": 10,
+    
+//       // Disable automatic extension suggestions
+//       "extensions.ignoreRecommendations": true,
+    
+//       // Disable file decorations (e.g., Git status markers)
+//       "explorer.decorations.colors": false,
+    
+//       // Control terminal history limit to avoid performance issues
+//       "terminal.integrated.scrollback": 1000,
+    
+//       // Disable code folding if unnecessary
+//       "editor.folding": false,
+    
+//       // Disable semantic highlighting for large files
+//       "editor.semanticHighlighting.enabled": false,
+
+//        // Enable lazy loading for large files
+// //   "files.maxMemoryForLargeFilesMB": 4096,
+
+//   // Disable smooth scrolling for snappier performance
+//   "editor.smoothScrolling": false,
+
+//   // Disable breadcrumbs for file navigation
+//   // "breadcrumbs.enabled": false
+}
