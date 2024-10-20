@@ -81,7 +81,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
               <Select
                 disabled={isLoading}
                 label="Members"
-                register={register}
+                // register={register}
                 options={users.map((user) => ({
                   value: user.id,
                   label: user.name,
@@ -92,7 +92,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                   });
                 }}
                 value={members}
-                errors={errors}
+                // errors={errors}
               />
             </div>
           </div>
