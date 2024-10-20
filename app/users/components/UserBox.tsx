@@ -9,6 +9,7 @@ import React, { useCallback, useState } from "react";
 
 interface UserBoxProps {
   data: User;
+  className?: string;
 }
 
 const UserBox: React.FC<UserBoxProps> = ({ data }) => {

@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from "react";
 import MessageBox from "./MessageBox";
 import axios from "axios";
 import { pusherClient } from "@/app/libs/pusher";
-import { find, set } from "lodash";
+import { find, } from "lodash";
 
 interface BodyProps {
   initialMessages: FullMessageType[];

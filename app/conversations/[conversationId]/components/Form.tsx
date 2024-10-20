@@ -8,8 +8,7 @@ import { SubmitHandler, useForm, FieldValues } from "react-hook-form";
 
 
 import MessageInput from "./MessageInput";
-import { HiPaperAirplane, HiPhoto } from "react-icons/hi2";
-import { CldUploadButton } from "next-cloudinary";
+import { HiPaperAirplane } from "react-icons/hi2";
 import CloudinaryUpload from "./Cloudinary";
 
 
